@@ -12,6 +12,7 @@
 		4055A9E31FDCB560000DAF8A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4055A9E11FDCB560000DAF8A /* Main.storyboard */; };
 		4055A9E51FDCB561000DAF8A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4055A9E41FDCB561000DAF8A /* Assets.xcassets */; };
 		4055A9E81FDCB561000DAF8A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4055A9E61FDCB561000DAF8A /* LaunchScreen.storyboard */; };
+		4055A9F31FDCE00A000DAF8A /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4055A9F21FDCE00A000DAF8A /* SWRevealViewController.m */; };
 		5837205EBB83A75AFF3972DA /* Pods_Smack.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 400BB983E0711D7FD9D306BB /* Pods_Smack.framework */; };
 /* End PBXBuildFile section */
 
@@ -25,6 +26,8 @@
 		4055A9E41FDCB561000DAF8A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4055A9E71FDCB561000DAF8A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4055A9E91FDCB561000DAF8A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4055A9F11FDCE00A000DAF8A /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
+		4055A9F21FDCE00A000DAF8A /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
 		6E697E008F3F54ED72C7B3BE /* Pods-Smack.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Smack.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Smack/Pods-Smack.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -60,6 +63,7 @@
 		4055A9D11FDCB560000DAF8A = {
 			isa = PBXGroup;
 			children = (
+				4055A9EF1FDCDFDB000DAF8A /* Supporting Files */,
 				4055A9DC1FDCB560000DAF8A /* Smack */,
 				4055A9DB1FDCB560000DAF8A /* Products */,
 				0CCE47B03A1F5A212182F48E /* Pods */,
@@ -86,6 +90,23 @@
 				4055A9E91FDCB561000DAF8A /* Info.plist */,
 			);
 			path = Smack;
+			sourceTree = "<group>";
+		};
+		4055A9EF1FDCDFDB000DAF8A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4055A9F01FDCE00A000DAF8A /* SWReveal */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4055A9F01FDCE00A000DAF8A /* SWReveal */ = {
+			isa = PBXGroup;
+			children = (
+				4055A9F11FDCE00A000DAF8A /* SWRevealViewController.h */,
+				4055A9F21FDCE00A000DAF8A /* SWRevealViewController.m */,
+			);
+			path = SWReveal;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -213,6 +234,7 @@
 			files = (
 				4055A9E01FDCB560000DAF8A /* ViewController.swift in Sources */,
 				4055A9DE1FDCB560000DAF8A /* AppDelegate.swift in Sources */,
+				4055A9F31FDCE00A000DAF8A /* SWRevealViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
