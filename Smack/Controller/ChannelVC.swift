@@ -10,6 +10,10 @@ import UIKit
 
 class ChannelVC: UIViewController {
 
+  // Outlet
+  @IBOutlet weak var loginBtn: UIButton!
+  
+  
     override func viewDidLoad() {
         super.viewDidLoad()
         // sets how much of the back view controller is shown. 
@@ -17,4 +21,8 @@ class ChannelVC: UIViewController {
     }
 
 
+  @IBAction func loginBtnPressed(_ sender: Any) {
+    performSegue(withIdentifier: TO_LOGIN, sender: nil)
+  }
+  
 }
